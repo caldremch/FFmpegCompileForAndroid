@@ -75,7 +75,7 @@ build_one(){
 --disable-ffplay \
 --disable-ffprobe \
 --disable-avdevice \
---disable-avfilter \
+--enable-avfilter \
 --enable-small \
 --enable-protocols \
 

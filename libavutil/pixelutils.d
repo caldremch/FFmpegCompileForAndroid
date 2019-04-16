@@ -5,4 +5,4 @@ libavutil/pixelutils.o: libavutil/pixelutils.c config.h \
  libavutil/rational.h libavutil/mathematics.h libavutil/intfloat.h \
  libavutil/log.h libavutil/pixfmt.h libavutil/internal.h \
  libavutil/timer.h libavutil/cpu.h libavutil/dict.h libavutil/libm.h \
- libavutil/pixelutils.h
+ libavutil/pixelutils.h libavutil/x86/pixelutils.h libavutil/pixelutils.h
