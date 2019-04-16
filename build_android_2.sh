@@ -26,8 +26,8 @@ build_one(){
   echo "开始编译"
 ./configure \
 --prefix=$PREFIX \
---enable-static \
---disable-shared \
+--disable-static \
+--enable-shared \
 --enable-cross-compile \
 --disable-runtime-cpudetect \
 --disable-asm \
@@ -36,17 +36,49 @@ build_one(){
 --cross-prefix=$TOOLCHAIN/bin/arm-linux-androideabi- \
 --disable-stripping \
 --sysroot=$PLATFORM \
---disable-demuxers \
 --disable-muxers \
+--enable-muxer=mov \
+--enable-muxer=mp4 \
+--enable-muxer=h264 \
+--enable-muxer=avi \
 --disable-decoders \
+--enable-decoder=aac \
+--enable-decoder=aac_latm \
+--enable-decoder=h264 \
+--enable-decoder=mpeg4 \
+--enable-decoder=mjpeg \
+--enable-decoder=png \
 --disable-encoders \
+--enable-encoder=mjpeg \
+--enable-encoder=png \
+--disable-demuxers \
+--enable-demuxer=image2 \
+--enable-demuxer=h264 \
+--enable-demuxer=aac \
+--enable-demuxer=avi \
+--enable-demuxer=mpc \
+--enable-demuxer=mov \
+--enable-demuxer=mpegts \
+--disable-parsers \
+--enable-parser=aac \
+--enable-parser=ac3 \
+--enable-parser=h264 \
+--disable-debug \
+--disable-programs \
+--disable-htmlpages \
+--disable-manpages \
+--disable-podpages \
+--disable-txtpages \
+--disable-doc \
+--disable-symver \
 --disable-ffmpeg \
 --disable-ffplay \
 --disable-ffprobe \
 --disable-avdevice \
---disable-parsers \
 --disable-avfilter \
 --enable-small \
+--enable-protocols \
+
 --extra-cflags="$FF_CFLAGS $FF_EXTRA_CFLAGS" \
 
 
