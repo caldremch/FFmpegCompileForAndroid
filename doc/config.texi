@@ -575,7 +575,7 @@
 @set config-cbs-h265 yes
 @set config-cbs-mpeg2 yes
 @c @set config-dirac-parse no
-@c @set config-dvprofile no
+@set config-dvprofile yes
 @set config-exif yes
 @set config-faandct yes
 @set config-faanidct yes
@@ -615,7 +615,7 @@
 @set config-mpeg-er yes
 @c @set config-mpegaudio no
 @c @set config-mpegaudiodsp no
-@c @set config-mpegaudioheader no
+@set config-mpegaudioheader yes
 @set config-mpegvideo yes
 @set config-mpegvideoenc yes
 @c @set config-mss34dsp no
@@ -2173,166 +2173,166 @@
 @c @set config-libgme-demuxer no
 @c @set config-libmodplug-demuxer no
 @c @set config-libopenmpt-demuxer no
-@c @set config-a64-muxer no
-@c @set config-ac3-muxer no
-@c @set config-adts-muxer no
-@c @set config-adx-muxer no
-@c @set config-aiff-muxer no
-@c @set config-amr-muxer no
-@c @set config-apng-muxer no
-@c @set config-aptx-muxer no
-@c @set config-aptx-hd-muxer no
-@c @set config-asf-muxer no
-@c @set config-ass-muxer no
-@c @set config-ast-muxer no
-@c @set config-asf-stream-muxer no
-@c @set config-au-muxer no
+@set config-a64-muxer yes
+@set config-ac3-muxer yes
+@set config-adts-muxer yes
+@set config-adx-muxer yes
+@set config-aiff-muxer yes
+@set config-amr-muxer yes
+@set config-apng-muxer yes
+@set config-aptx-muxer yes
+@set config-aptx-hd-muxer yes
+@set config-asf-muxer yes
+@set config-ass-muxer yes
+@set config-ast-muxer yes
+@set config-asf-stream-muxer yes
+@set config-au-muxer yes
 @set config-avi-muxer yes
-@c @set config-avm2-muxer no
-@c @set config-bit-muxer no
-@c @set config-caf-muxer no
-@c @set config-cavsvideo-muxer no
-@c @set config-codec2-muxer no
-@c @set config-codec2raw-muxer no
-@c @set config-crc-muxer no
-@c @set config-dash-muxer no
-@c @set config-data-muxer no
-@c @set config-daud-muxer no
-@c @set config-dirac-muxer no
-@c @set config-dnxhd-muxer no
-@c @set config-dts-muxer no
-@c @set config-dv-muxer no
-@c @set config-eac3-muxer no
-@c @set config-f4v-muxer no
-@c @set config-ffmetadata-muxer no
-@c @set config-fifo-muxer no
-@c @set config-fifo-test-muxer no
-@c @set config-filmstrip-muxer no
-@c @set config-fits-muxer no
-@c @set config-flac-muxer no
-@c @set config-flv-muxer no
-@c @set config-framecrc-muxer no
-@c @set config-framehash-muxer no
-@c @set config-framemd5-muxer no
-@c @set config-g722-muxer no
-@c @set config-g723-1-muxer no
-@c @set config-g726-muxer no
-@c @set config-g726le-muxer no
-@c @set config-gif-muxer no
-@c @set config-gsm-muxer no
-@c @set config-gxf-muxer no
-@c @set config-h261-muxer no
-@c @set config-h263-muxer no
+@set config-avm2-muxer yes
+@set config-bit-muxer yes
+@set config-caf-muxer yes
+@set config-cavsvideo-muxer yes
+@set config-codec2-muxer yes
+@set config-codec2raw-muxer yes
+@set config-crc-muxer yes
+@set config-dash-muxer yes
+@set config-data-muxer yes
+@set config-daud-muxer yes
+@set config-dirac-muxer yes
+@set config-dnxhd-muxer yes
+@set config-dts-muxer yes
+@set config-dv-muxer yes
+@set config-eac3-muxer yes
+@set config-f4v-muxer yes
+@set config-ffmetadata-muxer yes
+@set config-fifo-muxer yes
+@set config-fifo-test-muxer yes
+@set config-filmstrip-muxer yes
+@set config-fits-muxer yes
+@set config-flac-muxer yes
+@set config-flv-muxer yes
+@set config-framecrc-muxer yes
+@set config-framehash-muxer yes
+@set config-framemd5-muxer yes
+@set config-g722-muxer yes
+@set config-g723-1-muxer yes
+@set config-g726-muxer yes
+@set config-g726le-muxer yes
+@set config-gif-muxer yes
+@set config-gsm-muxer yes
+@set config-gxf-muxer yes
+@set config-h261-muxer yes
+@set config-h263-muxer yes
 @set config-h264-muxer yes
-@c @set config-hash-muxer no
-@c @set config-hds-muxer no
-@c @set config-hevc-muxer no
-@c @set config-hls-muxer no
-@c @set config-ico-muxer no
-@c @set config-ilbc-muxer no
-@c @set config-image2-muxer no
-@c @set config-image2pipe-muxer no
-@c @set config-ipod-muxer no
-@c @set config-ircam-muxer no
-@c @set config-ismv-muxer no
-@c @set config-ivf-muxer no
-@c @set config-jacosub-muxer no
-@c @set config-latm-muxer no
-@c @set config-lrc-muxer no
-@c @set config-m4v-muxer no
-@c @set config-md5-muxer no
-@c @set config-matroska-muxer no
-@c @set config-matroska-audio-muxer no
-@c @set config-microdvd-muxer no
-@c @set config-mjpeg-muxer no
-@c @set config-mlp-muxer no
-@c @set config-mmf-muxer no
+@set config-hash-muxer yes
+@set config-hds-muxer yes
+@set config-hevc-muxer yes
+@set config-hls-muxer yes
+@set config-ico-muxer yes
+@set config-ilbc-muxer yes
+@set config-image2-muxer yes
+@set config-image2pipe-muxer yes
+@set config-ipod-muxer yes
+@set config-ircam-muxer yes
+@set config-ismv-muxer yes
+@set config-ivf-muxer yes
+@set config-jacosub-muxer yes
+@set config-latm-muxer yes
+@set config-lrc-muxer yes
+@set config-m4v-muxer yes
+@set config-md5-muxer yes
+@set config-matroska-muxer yes
+@set config-matroska-audio-muxer yes
+@set config-microdvd-muxer yes
+@set config-mjpeg-muxer yes
+@set config-mlp-muxer yes
+@set config-mmf-muxer yes
 @set config-mov-muxer yes
-@c @set config-mp2-muxer no
-@c @set config-mp3-muxer no
+@set config-mp2-muxer yes
+@set config-mp3-muxer yes
 @set config-mp4-muxer yes
-@c @set config-mpeg1system-muxer no
-@c @set config-mpeg1vcd-muxer no
-@c @set config-mpeg1video-muxer no
-@c @set config-mpeg2dvd-muxer no
-@c @set config-mpeg2svcd-muxer no
-@c @set config-mpeg2video-muxer no
-@c @set config-mpeg2vob-muxer no
-@c @set config-mpegts-muxer no
-@c @set config-mpjpeg-muxer no
-@c @set config-mxf-muxer no
-@c @set config-mxf-d10-muxer no
-@c @set config-mxf-opatom-muxer no
-@c @set config-null-muxer no
-@c @set config-nut-muxer no
-@c @set config-oga-muxer no
-@c @set config-ogg-muxer no
-@c @set config-ogv-muxer no
-@c @set config-oma-muxer no
-@c @set config-opus-muxer no
-@c @set config-pcm-alaw-muxer no
-@c @set config-pcm-mulaw-muxer no
-@c @set config-pcm-f64be-muxer no
-@c @set config-pcm-f64le-muxer no
-@c @set config-pcm-f32be-muxer no
-@c @set config-pcm-f32le-muxer no
-@c @set config-pcm-s32be-muxer no
-@c @set config-pcm-s32le-muxer no
-@c @set config-pcm-s24be-muxer no
-@c @set config-pcm-s24le-muxer no
-@c @set config-pcm-s16be-muxer no
-@c @set config-pcm-s16le-muxer no
-@c @set config-pcm-s8-muxer no
-@c @set config-pcm-u32be-muxer no
-@c @set config-pcm-u32le-muxer no
-@c @set config-pcm-u24be-muxer no
-@c @set config-pcm-u24le-muxer no
-@c @set config-pcm-u16be-muxer no
-@c @set config-pcm-u16le-muxer no
-@c @set config-pcm-u8-muxer no
-@c @set config-psp-muxer no
-@c @set config-rawvideo-muxer no
-@c @set config-rm-muxer no
-@c @set config-roq-muxer no
-@c @set config-rso-muxer no
-@c @set config-rtp-muxer no
-@c @set config-rtp-mpegts-muxer no
-@c @set config-rtsp-muxer no
-@c @set config-sap-muxer no
-@c @set config-sbc-muxer no
-@c @set config-scc-muxer no
-@c @set config-segafilm-muxer no
-@c @set config-segment-muxer no
-@c @set config-stream-segment-muxer no
-@c @set config-singlejpeg-muxer no
-@c @set config-smjpeg-muxer no
-@c @set config-smoothstreaming-muxer no
-@c @set config-sox-muxer no
-@c @set config-spx-muxer no
-@c @set config-spdif-muxer no
-@c @set config-srt-muxer no
-@c @set config-sup-muxer no
-@c @set config-swf-muxer no
-@c @set config-tee-muxer no
-@c @set config-tg2-muxer no
-@c @set config-tgp-muxer no
-@c @set config-mkvtimestamp-v2-muxer no
-@c @set config-truehd-muxer no
-@c @set config-tta-muxer no
-@c @set config-uncodedframecrc-muxer no
-@c @set config-vc1-muxer no
-@c @set config-vc1t-muxer no
-@c @set config-voc-muxer no
-@c @set config-w64-muxer no
-@c @set config-wav-muxer no
-@c @set config-webm-muxer no
-@c @set config-webm-dash-manifest-muxer no
-@c @set config-webm-chunk-muxer no
-@c @set config-webp-muxer no
-@c @set config-webvtt-muxer no
-@c @set config-wtv-muxer no
-@c @set config-wv-muxer no
-@c @set config-yuv4mpegpipe-muxer no
+@set config-mpeg1system-muxer yes
+@set config-mpeg1vcd-muxer yes
+@set config-mpeg1video-muxer yes
+@set config-mpeg2dvd-muxer yes
+@set config-mpeg2svcd-muxer yes
+@set config-mpeg2video-muxer yes
+@set config-mpeg2vob-muxer yes
+@set config-mpegts-muxer yes
+@set config-mpjpeg-muxer yes
+@set config-mxf-muxer yes
+@set config-mxf-d10-muxer yes
+@set config-mxf-opatom-muxer yes
+@set config-null-muxer yes
+@set config-nut-muxer yes
+@set config-oga-muxer yes
+@set config-ogg-muxer yes
+@set config-ogv-muxer yes
+@set config-oma-muxer yes
+@set config-opus-muxer yes
+@set config-pcm-alaw-muxer yes
+@set config-pcm-mulaw-muxer yes
+@set config-pcm-f64be-muxer yes
+@set config-pcm-f64le-muxer yes
+@set config-pcm-f32be-muxer yes
+@set config-pcm-f32le-muxer yes
+@set config-pcm-s32be-muxer yes
+@set config-pcm-s32le-muxer yes
+@set config-pcm-s24be-muxer yes
+@set config-pcm-s24le-muxer yes
+@set config-pcm-s16be-muxer yes
+@set config-pcm-s16le-muxer yes
+@set config-pcm-s8-muxer yes
+@set config-pcm-u32be-muxer yes
+@set config-pcm-u32le-muxer yes
+@set config-pcm-u24be-muxer yes
+@set config-pcm-u24le-muxer yes
+@set config-pcm-u16be-muxer yes
+@set config-pcm-u16le-muxer yes
+@set config-pcm-u8-muxer yes
+@set config-psp-muxer yes
+@set config-rawvideo-muxer yes
+@set config-rm-muxer yes
+@set config-roq-muxer yes
+@set config-rso-muxer yes
+@set config-rtp-muxer yes
+@set config-rtp-mpegts-muxer yes
+@set config-rtsp-muxer yes
+@set config-sap-muxer yes
+@set config-sbc-muxer yes
+@set config-scc-muxer yes
+@set config-segafilm-muxer yes
+@set config-segment-muxer yes
+@set config-stream-segment-muxer yes
+@set config-singlejpeg-muxer yes
+@set config-smjpeg-muxer yes
+@set config-smoothstreaming-muxer yes
+@set config-sox-muxer yes
+@set config-spx-muxer yes
+@set config-spdif-muxer yes
+@set config-srt-muxer yes
+@set config-sup-muxer yes
+@set config-swf-muxer yes
+@set config-tee-muxer yes
+@set config-tg2-muxer yes
+@set config-tgp-muxer yes
+@set config-mkvtimestamp-v2-muxer yes
+@set config-truehd-muxer yes
+@set config-tta-muxer yes
+@set config-uncodedframecrc-muxer yes
+@set config-vc1-muxer yes
+@set config-vc1t-muxer yes
+@set config-voc-muxer yes
+@set config-w64-muxer yes
+@set config-wav-muxer yes
+@set config-webm-muxer yes
+@set config-webm-dash-manifest-muxer yes
+@set config-webm-chunk-muxer yes
+@set config-webp-muxer yes
+@set config-webvtt-muxer yes
+@set config-wtv-muxer yes
+@set config-wv-muxer yes
+@set config-yuv4mpegpipe-muxer yes
 @c @set config-chromaprint-muxer no
 @set config-async-protocol yes
 @c @set config-bluray-protocol no

@@ -36,11 +36,7 @@ build_one(){
 --cross-prefix=$TOOLCHAIN/bin/arm-linux-androideabi- \
 --disable-stripping \
 --sysroot=$PLATFORM \
---disable-muxers \
---enable-muxer=mov \
---enable-muxer=mp4 \
---enable-muxer=h264 \
---enable-muxer=avi \
+--enable-muxers \
 --disable-decoders \
 --enable-decoder=aac \
 --enable-decoder=aac_latm \
