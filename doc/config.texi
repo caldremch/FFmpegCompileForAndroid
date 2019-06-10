@@ -68,12 +68,12 @@
 @c @set have-loongson2 no
 @c @set have-loongson3 no
 @c @set have-mmi no
-@set have-armv5te-external yes
+@c @set have-armv5te-external no
 @c @set have-armv6-external no
 @c @set have-armv6t2-external no
 @c @set have-armv8-external no
 @c @set have-neon-external no
-@set have-vfp-external yes
+@c @set have-vfp-external no
 @c @set have-vfpv3-external no
 @c @set have-setend-external no
 @c @set have-altivec-external no
@@ -113,7 +113,7 @@
 @c @set have-loongson2-external no
 @c @set have-loongson3-external no
 @c @set have-mmi-external no
-@set have-armv5te-inline yes
+@c @set have-armv5te-inline no
 @c @set have-armv6-inline no
 @c @set have-armv6t2-inline no
 @c @set have-armv8-inline no
@@ -160,16 +160,16 @@
 @c @set have-mmi-inline no
 @c @set have-aligned-stack no
 @c @set have-fast-64bit no
-@set have-fast-clz yes
+@c @set have-fast-clz no
 @c @set have-fast-cmov no
-@c @set have-local-aligned no
+@set have-local-aligned yes
 @c @set have-simd-align-16 no
 @c @set have-simd-align-32 no
 @c @set have-simd-align-64 no
 @c @set have-atomic-cas-ptr no
 @c @set have-machine-rw-barrier no
 @c @set have-memorybarrier no
-@c @set have-mm-empty no
+@set have-mm-empty yes
 @c @set have-rdtsc no
 @set have-sem-timedwait yes
 @set have-sync-val-compare-and-swap yes
@@ -311,19 +311,19 @@
 @set have-pthreads yes
 @c @set have-os2threads no
 @c @set have-w32threads no
-@set have-as-arch-directive yes
-@set have-as-dn-directive yes
-@set have-as-fpu-directive yes
+@c @set have-as-arch-directive no
+@c @set have-as-dn-directive no
+@c @set have-as-fpu-directive no
 @c @set have-as-func no
-@set have-as-object-arch yes
-@set have-asm-mod-q yes
+@c @set have-as-object-arch no
+@c @set have-asm-mod-q no
 @c @set have-blocks-extension no
-@c @set have-ebp-available no
+@set have-ebp-available yes
 @c @set have-ebx-available no
 @c @set have-gnu-as no
 @c @set have-gnu-windres no
 @c @set have-ibm-asm no
-@c @set have-inline-asm-direct-symbol-refs no
+@set have-inline-asm-direct-symbol-refs yes
 @set have-inline-asm-labels yes
 @set have-inline-asm-nonlocal-labels yes
 @set have-pragma-deprecated yes
@@ -332,7 +332,7 @@
 @set have-symver-gnu-asm yes
 @c @set have-vfp-args no
 @c @set have-xform-asm no
-@c @set have-xmm-clobbers no
+@set have-xmm-clobbers yes
 @c @set have-kcmvideocodectype-hevc no
 @set have-socklen-t yes
 @set have-struct-addrinfo yes
